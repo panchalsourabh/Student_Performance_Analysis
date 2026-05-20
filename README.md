@@ -38,17 +38,29 @@ Neha	90	88	95	91
 
 ## How It Works
 Loads student data from CSV
+
 Cleans missing values (if any)
+
 Calculates:
+
 Total Marks
+
 Average Marks
+
 Assigns Grades:
+
 A (90+)
+
 B (75–89)
+
 C (60–74)
+
 Needs Improvement (<60)
+
 Identifies top performers
+
 Analyzes subject-wise averages
+
 Generates an Excel report with multiple sheets
 
 ## How to Run the Project
