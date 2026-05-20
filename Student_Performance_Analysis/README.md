@@ -1,10 +1,10 @@
-📊 Student Performance Analysis System
+## Student Performance Analysis System
 
 A data analysis project built using Python, Pandas, and Excel to evaluate and analyze student academic performance.
 
 This system processes student marks, calculates performance metrics, identifies top performers, and generates a structured Excel report for easy review.
 
-🚀 Features
+## Features
 
 ✔ Data cleaning and preprocessing
 ✔ Automatic calculation of Total and Average marks
@@ -14,22 +14,19 @@ This system processes student marks, calculates performance metrics, identifies 
 ✔ Pass percentage calculation
 ✔ Export of results into a multi-sheet Excel report
 
-🛠 Technologies Used
-
+##Technologies Used
 Python
-
 Pandas
-
 Excel (OpenPyXL)
 
-📁 Project Structure
+## Project Structure
 Student_Performance_Analysis/
 │
 ├── student_performance_analysis.py   # Main Python script
 ├── students.csv                      # Input dataset
 └── Student_Performance_Report.xlsx   # Generated output report
 
-📥 Input Dataset
+## Input Dataset
 
 The system reads student data from a CSV file containing subject marks.
 
@@ -38,8 +35,8 @@ Sample Format:
 Name	Maths	Science	English	History
 Amit	85	78	92	74
 Neha	90	88	95	91
-⚙ How It Works
 
+## How It Works
 Loads student data from CSV
 
 Cleans missing values (if any)
@@ -66,14 +63,14 @@ Analyzes subject-wise averages
 
 Generates an Excel report with multiple sheets
 
-▶ How to Run the Project
+## How to Run the Project
 Step 1: Install Required Libraries
 pip install pandas openpyxl
 
 Step 2: Run the Script
 python student_performance_analysis.py
 
-📊 Output
+## Output
 
 The program generates an Excel file:
 
@@ -85,7 +82,8 @@ Sheet Name	Description
 Full Report	Complete student performance data
 Top Performers	Top 3 students based on average marks
 Subject Averages	Average marks per subject
-🎯 Learning Outcomes
+
+##Learning Outcomes
 
 Through this project, I practiced:
 
@@ -99,7 +97,7 @@ Exporting structured reports to Excel
 
 Writing clean, real-world Python scripts
 
-📌 Future Improvements
+## Future Improvements
 
 Add data visualizations (charts & graphs)
 
@@ -109,6 +107,7 @@ Add ranking system
 
 Build a simple GUI interface
 
-👨‍💻 Author
+## Author
 
 Sourabh Panchal
+Aspiring Data Analyst | Python & SQL Learner
